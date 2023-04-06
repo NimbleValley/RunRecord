@@ -37,7 +37,7 @@ function sendPhotoEmail() {
         Body: picture,
       })
         .then(function (message) {
-          alert("mail sent successfully")
+          alert("This site is down :(")
         });
 }
 
