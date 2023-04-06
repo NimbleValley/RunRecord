@@ -1,0 +1,83 @@
+html, body {
+    background-color: rgb(255, 171, 75);
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15vw;
+    text-shadow: 0.75vw 0.75vw 0px white;
+    background-color: transparent;
+    z-index: 5;
+    position: relative;
+    margin-top: 3vh;
+}
+
+#fancy {
+    position: absolute;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 22.5vw;
+    top: 0;
+    transform: rotate(5deg);
+    scale: 2;
+}
+
+video {
+    opacity: 0;
+}
+
+#download-image {
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+}
+
+a {
+    opacity: 0;
+}
+
+canvas {
+    opacity: 0;
+}
+
+#permission {
+    background-color: rgba(0, 0, 0, 0.829);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2vw;
+    color: white;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vw;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    opacity: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#ok-button {
+    margin-top: 5vw;
+    font-size: 7.5vw;
+    background-color: rgb(187, 119, 119);
+    width: fit-content;
+    padding: 1vw 4vw 1vw 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1vw;
+}
+
+form  {
+    opacity: 1;
+}
